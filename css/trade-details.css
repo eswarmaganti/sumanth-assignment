@@ -1,0 +1,26 @@
+.trade-details-container .grid-cols-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 2rem;
+}
+.trade-details-container .grid-cols-2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  overflow: hidden;
+}
+.trade-details-container .grid-cols-2 aside .title {
+  font-size: 2.5rem;
+}
+.trade-details-container .grid-cols-2 aside .sub-title {
+  font-weight: 500;
+  color: gray;
+}
+.trade-details-container .grid-cols-2 aside .price {
+  font-size: 1.3rem;
+}
+.trade-details-container .grid-cols-2 aside .description {
+  font-size: 14px;
+  margin-top: 1rem;
+}/*# sourceMappingURL=trade-details.css.map */

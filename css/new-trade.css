@@ -1,0 +1,9 @@
+.new-trade-container {
+  max-width: 100%;
+  width: 50%;
+  margin: auto;
+  padding: 2rem;
+}
+.new-trade-container .title {
+  text-align: center;
+}/*# sourceMappingURL=new-trade.css.map */

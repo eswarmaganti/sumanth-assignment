@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding: 1rem 2rem;
+  background-color: #005ce6;
+}
+header .banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .banner .brand {
+  font-size: 2rem;
+  font-family: "Cookie";
+  font-weight: 600;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+header .banner .user-navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+header .banner .user-navbar ul li {
+  color: #c0c0c0;
+  font-size: 14px;
+  padding: 5px 0;
+  border-bottom: 1px solid transparent;
+  transition: all 300ms ease-out;
+}
+header .banner .user-navbar ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+header .banner .user-navbar ul li:hover {
+  border-bottom: 1px solid #f1f1f1;
+  color: #f1f1f1;
+}
+header .main-navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  gap: 1rem;
+}
+header .main-navbar ul li {
+  color: #c0c0c0;
+  transition: all 300ms ease-out;
+}
+header .main-navbar ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+header .main-navbar ul li:hover {
+  color: #f1f1f1 !important;
+}
+
+.home-container {
+  max-height: 100vh;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.home-container .subhead {
+  font-style: 1.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #4b4a4a;
+}
+.home-container .head {
+  font-size: 3rem;
+  color: #005ce6;
+}
+
+footer {
+  padding: 1rem 2rem;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .links {
+  display: flex;
+  gap: 30px;
+}
+footer .links ul {
+  list-style-type: none;
+  font-size: 14px;
+}
+footer .links ul li {
+  color: #4b4a4a;
+  font-size: 14px;
+  padding: 5px 0;
+  border-bottom: 1px solid transparent;
+  transition: all 300ms ease-out;
+}
+footer .links ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+footer .links ul li:hover {
+  color: #121212;
+}
+footer .social a {
+  color: #4b4a4a;
+  transition: all 300ms ease-out;
+  font-size: 24px;
+}
+footer .social a:not(:last-child) {
+  margin-right: 1rem;
+}
+footer .social a:hover {
+  color: #005ce6;
+}
+
+.form-control {
+  padding: 0.7rem;
+  box-shadow: none;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #c0c0c0;
+}
+.form-control:focus {
+  border: 1px solid #005ce6;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.btn {
+  padding: 0.7rem;
+  box-shadow: none;
+  cursor: pointer;
+  background-color: #005ce6;
+  color: #f1f1f1;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 15px #005ce6;
+}/*# sourceMappingURL=index.css.map */
